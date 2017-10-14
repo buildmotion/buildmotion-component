@@ -1,0 +1,43 @@
+{
+  "name": "buildmotion-component",
+  "version": "1.0.0",
+  "description": "An Angular custom module for BuildMotion Component development...fire at will. Engage!",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "ngc",
+    "build": "npm run transpile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://buildmotion.visualstudio.com/_git/buildmotion.Angular"
+  },
+  "keywords": [
+    "buildmotion",
+    "build motion",
+    "Angular",
+    "framework",
+    "ng",
+    "component"
+  ],
+  "author": "Matt Vaughn",
+  "license": "SEE LICENSE IN license.txt",
+  "dependencies": {
+    "angular-rules-engine": "^0.0.27",
+    "@angular/http": "^2.3.1",
+    "@angular/router": "^3.3.1"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.4.2",
+    "@angular/common": "^4.4.3",
+    "@angular/compiler": "^4.4.3",
+    "@angular/compiler-cli": "^4.4.3",
+    "@angular/core": "^4.4.3",
+    "@angular/http": "^2.3.1",
+    "@angular/router": "^3.3.1",
+    "angular-rules-engine": "^0.0.27",
+    "rxjs": "^5.0.1",
+    "buildmotion-alert": "./../../output/buildmotion-alert/buildmotion-alert-1.0.0",
+    "buildmotion-logging": "./../../output/buildmotion-logging/buildmotion-logging-1.0.0",
+    "buildmotion-foundation": "./../../output/buildmotion-foundation/buildmotion-foundation-1.0.0"
+  }
+}
