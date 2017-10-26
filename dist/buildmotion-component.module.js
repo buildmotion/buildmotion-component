@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BuildMotionAlertModule } from 'buildmotion-alert';
-import { BuildmotionLoggingModule } from 'buildmotion-logging';
-import { BuildmotionFoundationModule } from 'buildmotion-foundation';
+import { BuildMotionLoggingModule } from 'buildmotion-logging';
+import { BuildMotionFoundationModule } from 'buildmotion-foundation';
 var BuildMotionComponentModule = /** @class */ (function () {
     function BuildMotionComponentModule() {
     }
@@ -11,8 +11,8 @@ var BuildMotionComponentModule = /** @class */ (function () {
                     imports: [
                         CommonModule,
                         BuildMotionAlertModule,
-                        BuildmotionFoundationModule,
-                        BuildmotionLoggingModule
+                        BuildMotionFoundationModule,
+                        BuildMotionLoggingModule
                     ],
                     declarations: [],
                     exports: []
