@@ -12,6 +12,7 @@ import { AlertTypes } from 'buildmotion-alert/alert/models/alert-types.constants
 export class ComponentBase {
     componentName: string;
     alertNotification: AlertNotification;
+    
     constructor(
         public loggingService: LoggingService,
         public router: Router
