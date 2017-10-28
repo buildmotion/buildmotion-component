@@ -1,6 +1,6 @@
 {
   "name": "buildmotion-component",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "An Angular custom module for BuildMotion Component development...fire at will. Engage!",
   "main": "index.js",
   "scripts": {

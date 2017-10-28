@@ -8,7 +8,7 @@ export declare class ComponentBase {
     router: Router;
     componentName: string;
     alertNotification: AlertNotification;
-    constructor(loggingService: LoggingService, router: Router);
+    constructor(componentName: string, loggingService: LoggingService, router: Router);
     /**
      * Use to create a simple [ErrorResponse] with the specified message.
      * @param message The message to display to the user.

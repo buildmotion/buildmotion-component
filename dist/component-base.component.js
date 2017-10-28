@@ -5,9 +5,10 @@ import { Severity } from 'buildmotion-logging/severity.enum';
 import { AlertNotification } from 'buildmotion-alert/alert/models/alert-notification.model';
 import { AlertTypes } from 'buildmotion-alert/alert/models/alert-types.constants';
 var ComponentBase = /** @class */ (function () {
-    function ComponentBase(loggingService, router) {
+    function ComponentBase(componentName, loggingService, router) {
         this.loggingService = loggingService;
         this.router = router;
+        this.componentName = componentName;
         this.alertNotification = new AlertNotification('', '');
     }
     /**
