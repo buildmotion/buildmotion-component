@@ -1,6 +1,6 @@
 {
   "name": "buildmotion-component",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An Angular custom module for BuildMotion Component development...fire at will. Engage!",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "angular-rules-engine": "^0.0.27",
     "buildmotion-alert": "^1.0.1",
     "buildmotion-logging": "^1.0.4",
-    "buildmotion-foundation": "^1.0.6"
+    "buildmotion-foundation": "^1.0.7"
   },
   "devDependencies": {
     "@angular/cli": "^1.4.2",
@@ -39,6 +39,6 @@
     "rxjs": "^5.0.1",
     "buildmotion-alert": "^1.0.2",
     "buildmotion-logging": "^1.0.5",
-    "buildmotion-foundation": "^1.0.6"
+    "buildmotion-foundation": "^1.0.7"
   }
 }
